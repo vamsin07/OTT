@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Indiapp Market</title><!--Thrive-->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <link rel="stylesheet" href="scripts/aos/aos.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/hide-arrow.js"></script>
+    <script src="scripts/fullstory.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+   
+
+    <link rel="preload" href="assets/images/01.png" as="image">
+    <link rel="preload" href="assets/images/goals-1.jpg" as="image">
+    <link rel="preload" href="assets/images/decisions-1.jpg" as="image">
+    <link rel="preload" href="assets/images/ideas-1.jpg" as="image">
+
+</head>
+<body>
+
+<img id="arrow" src="assets/vectors/down-arrow.svg">
+
+    <div class="container">
+
+        <div id="hero">
+            <img id="main-image" src="assets/images/01.png">
+            <div id="text">
+                <img id="logo" src="assets/images/logo.png">
+                <h1>Apps made in India, store made in India</h1>
+                <p>The call for swadeshi apps and games is clear. India possesses the power and might to be ahead in technology, so does it in creating apps</p>
+                <div id="buttons">
+                    <a id="download" target="_blank" href="https://apps.apple.com/us/app/thrive-goals-ideas-decisions/id1472954301?ls=1"> <img src="assets/vectors/download.svg"></a>
+                    <a id="play-video" onClick="showVideo()"> <img src="assets/vectors/play.svg"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="awards">
+            <div onClick="window.open('https://apps.apple.com/us/app/thrive-goals-ideas-decisions/id1472954301?ls=1', '_blank');" id="apple"><img src="assets/vectors/apple.svg"></div>
+            <div onClick="window.open('https://www.producthunt.com/posts/thrive-b91dd4e7-5dcd-425b-a78c-227ca7cbfe03', '_blank');" id="product-hunt"><img src="assets/vectors/product-hunt.svg"></div>
+        </div>
+
+        <!-- <span class="separator" id="smaller-margin"></span> -->
+
+
+        <div class="section-intro" id="goals">
+            <div>
+                <h1>Entertainment Apps</h1>
+                <p>Short video apps, music and entertainment.</p>
+            </div>
+            <img src="assets/images/goals-1.jpg">
+        </div>
+
+        <div class="cards-container">
+            <div class="card" data-aos="zoom-out-up">
+                <img src="assets/images/goals-2.png">
+                <p id="goals-text">Stay on top of all <br>your goals</p>
+            </div>
+            <div class="card" data-aos="zoom-out-up" data-aos-delay="150">
+                <img src="assets/images/goals-3.png">
+                <p id="goals-text">Get inspiration & <br>examples</p>
+            </div>
+            <div class="card" data-aos="zoom-out-up">
+                <img src="assets/images/goals-4.png">
+                <p id="goals-text">Beat <br>procrastination</p>
+            </div>
+            <div class="card" data-aos="zoom-out-up" data-aos-delay="150">
+                <img src="assets/images/goals-5.png">
+                <p id="goals-text">One step <br>at a time</p>
+            </div>
+        </div>
+
+        <span class="separator"></span>
+
+        <div class="section-intro" id="ideas">
+            <div>
+                <h1>Utility Apps</h1>
+                <p>Mobile Utility Applications like folder viewer, document scanner and more</p>
+            </div>
+            <img src="assets/images/ideas-1.jpg">
+        </div>
+
+        <div class="cards-container" id="ideas-cards">
+            <div class="card" data-aos="zoom-out-up">
+                <img src="assets/images/ideas-2.png">
+                <p id="ideas-text">Quickly save your <br>important ideas</p>
+            </div>
+            <div class="card" data-aos="zoom-out-up" data-aos-delay="150">
+                <img src="assets/images/ideas-3.png">
+                <p id="ideas-text">Put your progress <br>into perspective</p>
+            </div>
+        </div>
+
+        <span class="separator"></span>
+
+        <div class="section-intro" id="decisions">
+            <div>
+                <h1>Gaming App</h1>
+                <p>Games..</p>
+            </div>
+            <img src="assets/images/decisions-1.jpg">
+        </div>
+
+        <div class="cards-container" id="decisions-cards">
+            <div class="card" data-aos="zoom-out-up">
+                <img src="assets/images/decisions-2.png">
+                <p id="decisions-text">Add your choices and the aspects of your life they’ll impact</p>
+            </div>
+            <div class="card" data-aos="zoom-out-up" data-aos-delay="150">
+                <img src="assets/images/decisions-3.png">
+                <p id="decisions-text">Rate how each aspect will be impacted and visualise the options</p>
+            </div>
+        </div>
+
+
+        <div id="faq">
+            <h2>IndiApp Market</h2>
+            <div class="question">
+                <h3>Why this?</h3>
+                <p>UIf all the apps we wish to use are Indian, then why not the appstore which we plan to use? Indiapp Market lists all Made in India Android Applications.</p>
+            </div>
+            <div class="question">
+                <h3>Is it safe?</h3>
+                <p>Absolutely. Our Applist is checked for malware, brings you all information and downloads are from their official website. Do not worry for the bad</p>
+            </div>
+            <div class="question">
+                <h3>Isn’t this similar to a Play Store?</h3>
+                <p> <span id="goals-text">IndiApp Market</span> provides Indian App Makers to get displayed. <span id="ideas-text">Play Store </span> is the official App store for Android. </p>
+
+              <p></p>
+            </div>
+            <div class="question">
+                <h3>What devices does this run on?</h3>
+                <p>The app works on any iOS device running iOS 11 or newer.</p>
+            </div>
+            <div class="question">
+                <h3>What else do I need to know?</h3>
+                <p>A lot of work went into making this app, but it cannot do the work for you. It offers a framework for staying on top of your goals, organising your ideas and making decisions, but it can’t solve your problems automatically. You’ll have to think hard (with some help) about new ideas and goals, you’ll have to bring your best and stay determined.</p>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="last-cta">
+                <h2>Get Thrive on the App Store today</h2>
+                <a target="_blank" href="https://apps.apple.com/us/app/thrive-goals-ideas-decisions/id1472954301?ls=1"> <img src="assets/vectors/download.svg"> </a>
+            </div>
+            <div id="links">
+    <p>Made by Cristian M.</p>
+    <div>
+        <a href="https://apps.apple.com/gb/developer/cristian-moisei/id1397348511" target="_blank">More apps</a>
+        <a href="media-kit.php">Media Kit</a>
+        <a onClick="showContactDetails()">Contact & Feedback</a>
+    </div>
+</div>        </div>
+
+    </div>
+
+    <script src="scripts/aos/aos.js"></script>
+    <script src="scripts/aos/init.js"></script>
+
+
+        <div class="overlay" id="contact-modal">
+    <div class="modal-content">
+
+        <h2>Contact & Feedback</h2>
+        <p>If you have any questions or feedback about the app, or if you'd just like to say hello, please send a message below.</p>
+
+        <form method="post" action="scripts/send-email.php">
+
+            <input 
+                type="text" name="Name" id="Name" placeholder="Name" required 
+                oninvalid="this.setCustomValidity('Please enter your name')"
+                oninput="this.setCustomValidity('')"  
+            />					
+            <input type="email" name="Email" id="Email" placeholder="Email Address" required
+                oninvalid="this.setCustomValidity('Please enter a valid email')"
+                oninput="this.setCustomValidity('')"  
+            />
+            <textarea name="Message" id="Message" 
+                oninvalid="this.setCustomValidity('The message cannot be empty')"
+                oninput="this.setCustomValidity('')"
+            placeholder="Message" required></textarea>
+
+            <input type="submit" name="submit" id="submit" value="Send Message"/>
+            <input type="button" id="close" onClick="hideContactDetails()" value="Nevermind"/>
+
+        </form>
+
+    </div>
+</div>        <div class="overlay" id="video-modal">
+    <div class="modal-content" id="video">
+        <div class="video-container">
+        </div>
+        <input type="button" id="close" onClick="hideVideo()" value="Close" />
+    </div>
+</div>
+</body>
+</html>
